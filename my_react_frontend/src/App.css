@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Reset body defaults and set a gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+/* Main container to center content */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Input prompt styling */
+.prompt-input {
+  width: 300px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.prompt-input:focus {
+  border-color: #ff7aa2;
+}
+
+/* Generate button styling */
+.generate-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #ff7aa2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-button:hover {
+  background-color: #ff5f8b;
+}
+
+/* Image preview container */
+.image-preview {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* The generated image */
+.generated-image {
+  max-width: 512px;
+  width: 100%;
+  border: 2px solid #ff7aa2;
+  border-radius: 8px;
+}
+
+/* Download link */
+.download-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #57c3ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.download-link:hover {
+  background-color: #2baef8;
+}
